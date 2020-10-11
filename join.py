@@ -15,7 +15,7 @@ dif_y = coord_b_y - coord_a_y
 dif_x = coord_b_x - coord_a_x
 
 distance = math.sqrt((pow(dif_x, 2) + pow(dif_y, 2)))
-print("***********RESULT**************\n\nDistance => " + str(distance))
+print("***********RESULT**************\n\nDistance => " + str(distance) + " metres")
 
 # finding the angle now
 rad_theta = math.atan(dif_y / dif_x)
